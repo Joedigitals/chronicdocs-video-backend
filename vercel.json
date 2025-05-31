@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "/api/**/*.js": "/(.*)",
+      "- /var/task/index.js": "/(.*)",
       "dest": "index.js"
     }
   ]
